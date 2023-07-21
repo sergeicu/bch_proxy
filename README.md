@@ -17,3 +17,11 @@ from proxy import setup_proxy
 setup_proxy()
 
 ```
+
+
+Alternatively, just use: 
+```
+import os
+os.environ['HTTP_PROXY'] = "http://proxy.tch.harvard.edu:3128"
+os.environ['HTTPS_PROXY'] = "http://proxy.tch.harvard.edu:3128"
+```
